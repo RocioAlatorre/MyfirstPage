@@ -1,0 +1,86 @@
+body{
+    font-family: "Poppins", sans-serif;
+    /* Color de fondo */
+    background-color: beige;
+}
+
+header{
+background-color: rgb(222, 211, 232);
+display: flex;
+justify-content: center;
+height: 200px;
+}
+
+header .menu{
+    padding-right: 100px;
+    padding-top: 40px;
+}
+
+main{
+    height: 40px;
+}
+main .flortemporada{
+    display: flex;
+    justify-content: flex-start;;
+}
+
+h3{
+    /* Color de texto */
+    color: palevioletred;
+    font-family: "Outfit", sans-serif;
+}
+h1{ color: rgb(41, 7, 72);
+    text-align: center;
+    font-size: 40px;
+    background-color: antiquewhite;
+    height: 55px;
+}
+#banner{
+    width: 500px;
+}
+img{
+    /* Cambiar tamaño de imagen */
+    /* Anchura de imagen pixeles y % */
+    width: 300px;
+    /* Bordes redondeados */
+    border-radius: 10px
+}
+    /* Para modificar CSS de un elemento en particular en html, asignamos una clase y esa la llamamos en el CSS (.) antes del nombre */
+main .flor-morada{
+    width: 60px;
+    margin-left: 45px;
+    padding-top: 25px;
+}
+
+
+/* Editar div del menu */
+.menu{
+    /* div flexible para moverse con los elementos  */
+    display: flex;
+    /* En columna */
+    flex-direction: column;
+    align-items: center;
+}
+/* Anclas del menu */
+a{
+    color: rgb(224, 128, 160);
+    text-decoration: none;
+    /* Anclas como botones */
+    background-color: rgb(231, 240, 240);
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+a:hover{
+    background-color: antiquewhite
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.logoflower{
+    width: 5%;
+    margin-right: 30px;
+    margin-left: 500px;
+}
+
